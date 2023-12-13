@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React, {useState} from 'react';
 import Image from 'next/image';
 import {client, urlFor} from '../../lib/client';
@@ -22,7 +24,7 @@ const ProductDetails = ({product, products}) => {
       <div className="product-detail-container">
           <div>
               <div className="image-container">
-                  <Image 
+                  <img 
                     src={urlFor(image && image[index])}
                     className='product-detail-image'
                     alt='product-detail-image'
@@ -30,7 +32,7 @@ const ProductDetails = ({product, products}) => {
               </div>
               <div className="small-images-container">
                 {image?.map((item,i) => (
-                  <Image
+                  <img
                     key={i}
                     src={urlFor(item)}
                     className={i === index ? 'small-image selected-image'
