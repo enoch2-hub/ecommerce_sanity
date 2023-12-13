@@ -15,7 +15,7 @@ const Success = () => {
         setTotalPrice(0);
         setTotalQuantities(0);
         showStars();
-    },[]);
+    },[setCartItems, setTotalPrice, setTotalQuantities]);
 
   return (
     <div className='success-wrapper'>

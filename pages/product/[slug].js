@@ -25,6 +25,7 @@ const ProductDetails = ({product, products}) => {
                   <Image 
                     src={urlFor(image && image[index])}
                     className='product-detail-image'
+                    alt='product-detail-image'
                     />
               </div>
               <div className="small-images-container">
@@ -34,6 +35,7 @@ const ProductDetails = ({product, products}) => {
                     src={urlFor(item)}
                     className={i === index ? 'small-image selected-image'
                         : 'small-image'}
+                    alt='small-image'
                     onMouseEnter={()=> setIndex(i)}
                     />
                 ))}
