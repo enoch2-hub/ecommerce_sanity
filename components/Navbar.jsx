@@ -1,5 +1,6 @@
 import React from 'react';
 import {AiOutlineShopping} from 'react-icons/ai';
+import {MdOutlineShoppingCart} from 'react-icons/md';
 import Link from 'next/link';
 import Cart from './Cart';
 import { useStateContext } from '@/context/StateContext';
@@ -10,14 +11,17 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">JSM Headphones</Link>
+        <Link href="/">
+          <MdOutlineShoppingCart fontSize={60} color='red'/>
+          Flippy Shop
+        </Link>
       </p>
 
       <button type='button'
         className='cart-icon'
         onClick={() => setShowCart(true)}
       >
-        <AiOutlineShopping/>
+        <AiOutlineShopping fontSize={60}/>
         <span className="cart-item-qty">{totalQuantities}</span>
       </button>
 

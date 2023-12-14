@@ -24,7 +24,14 @@ const Product = ({product: {image, name, slug, price}}) => {
         </div>
       </Link>
     </div>
-  )
+  
+
+  
+  
+  
+  
+  
+    )
 }
 
 export default Product

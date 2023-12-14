@@ -27,7 +27,7 @@ const Home = ({productData, bannerData}) => {
     <>
      
       <HeroBanner heroBanner={bannerData.length && bannerData[0]}/>
-        {console.log(productData)}
+        {/* {console.log(productData)} */}
         <div className="products-heading">
           <h2>Best </h2>
           <p>Speakers of many variational factors</p>

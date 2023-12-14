@@ -3,9 +3,8 @@ body, * {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
-  /* background-color: #1b1b1b; */
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -31,6 +30,11 @@ width: 100%;
   justify-content: space-between;
   margin: 6px 18px;
   position: relative;
+  background-color: #8d8d8d;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.459),rgb(83, 52, 255));
+  padding: 3rem;
+  font-size: 10rem;
+  color: #dcdcdc;
 }
 .marquee-text{
   font-size: 29px;
@@ -65,9 +69,9 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
-  font-size: 18px;
-
+  color: rgb(218, 218, 218);
+  font-size: 3rem;
+  font-family: fantasy;
 }
 .cart-icon{
   font-size: 25px;
@@ -84,11 +88,11 @@ width: 100%;
 .cart-item-qty{
   position: absolute;
   right: -8px;
-  font-size: 12px;
+  font-size: 2rem;
   color: #eee;
-  background-color: #f02d34;
-  width: 18px;
-  height: 18px;
+  background-color: #f02d339f;
+  width: 2rem;
+  height: 3rem;
   border-radius: 50%;
   text-align: center;
   font-weight: 600;
@@ -101,6 +105,9 @@ width: 100%;
   gap: 15px;
   margin-top: 20px;
   width: 100%;
+  background-color: #3d3d3d;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 .product-card{
  cursor: pointer;
@@ -121,14 +128,16 @@ width: 100%;
 
 .product-name{
   font-weight: 500;
+  color: #acacac;
 }
 .product-price{
   font-weight: 800;
   margin-top: 6px;
-  color: black;
+  color: rgb(201, 201, 201);
 }
 
 .hero-banner-container{
+  margin-top: 80px;
   padding: 100px 40px;
   background-color: #dcdcdc;
   border-radius: 15px;
@@ -167,7 +176,7 @@ width: 100%;
 .hero-banner-image{
   position: absolute;
   top: 0%;
-  right:20%;
+  right:10%;
   width: 450px;
   height: 450px;
 }
@@ -212,7 +221,8 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #2df05e;
+  background-image: linear-gradient(rgb(128, 0, 0), black);
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -229,7 +239,7 @@ text-align: end;
   border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
-  color: red;
+  color: rgb(173, 1, 1);
   border: none;
   margin-top: 40px;
   font-size: 18px;
