@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+![014](https://github.com/enoch2-hub/ecommerce_sanity/assets/151722245/ebe8fc67-40a5-4bee-b756-d9fded6571d7)
+
+
 First, run the development server:
 
 ```bash
