@@ -31,13 +31,13 @@ width: 100%;
   margin: 6px 18px;
   position: absolute;
   margin-top: -1rem;
-  margin-left: -1rem;
+  margin-left: -0.6rem;
   width: 100%;
-  background-color: #8d8d8d;
+  background-color: #3a0000;
   /* background-image: linear-gradient(rgba(255, 0, 0, 0.459),rgb(83, 52, 255)); */
   padding: 3rem;
   font-size: 10rem;
-  color: #dcdcdc;
+  color: #64ffd8;
 }
 .marquee-text{
   font-size: 29px;
@@ -72,13 +72,18 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: rgb(218, 218, 218);
+  color: rgb(0, 0, 0);
   font-size: 3rem;
   font-family: fantasy;
 }
+.logo p {
+  font-family: cursive;
+  display: inline;
+  color: #949494;
+}
 .cart-icon{
   font-size: 25px;
-  color: gray;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;
@@ -723,6 +728,7 @@ margin-top: 160px;
   }
   .product-detail-container{
     margin: 20px;
+    margin-top: 15rem;
   }
 
 .item-desc .flex{

@@ -13,7 +13,7 @@ const Navbar = () => {
       <p className="logo">
         <Link href="/">
           <MdOutlineShoppingCart fontSize={60} color='red'/>
-          Flippy Shop
+        <p>EcmSanity</p>
         </Link>
       </p>
 
@@ -22,7 +22,7 @@ const Navbar = () => {
         className='cart-icon'
         onClick={() => setShowCart(true)}
       >
-        <AiOutlineShopping fontSize={60}/>
+        <AiOutlineShopping fontSize={75} color='white'/>
         <span className="cart-item-qty">{totalQuantities}</span>
       </button>
 
