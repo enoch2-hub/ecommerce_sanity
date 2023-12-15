@@ -29,9 +29,12 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 6px 18px;
-  position: relative;
+  position: absolute;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  width: 100%;
   background-color: #8d8d8d;
-  background-image: linear-gradient(rgba(255, 0, 0, 0.459),rgb(83, 52, 255));
+  /* background-image: linear-gradient(rgba(255, 0, 0, 0.459),rgb(83, 52, 255)); */
   padding: 3rem;
   font-size: 10rem;
   color: #dcdcdc;
@@ -137,7 +140,7 @@ width: 100%;
 }
 
 .hero-banner-container{
-  margin-top: 80px;
+  margin-top: 15rem;
   padding: 100px 40px;
   background-color: #dcdcdc;
   border-radius: 15px;

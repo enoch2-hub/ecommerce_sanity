@@ -17,6 +17,7 @@ const Navbar = () => {
         </Link>
       </p>
 
+      
       <button type='button'
         className='cart-icon'
         onClick={() => setShowCart(true)}
