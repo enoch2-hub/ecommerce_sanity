@@ -1,43 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Commerce App
+
+The E-Commerce App is a full-stack web application that enables users to browse and purchase products. It utilizes React.js for the frontend, Next.js for server-side rendering, and Sanity CMS for managing product data.
+
+![ecommerce_app](https://github.com/enoch2-hub/ecommerce_sanity/assets/151722245/8ccc83a9-cef3-4387-87ce-768300a2783b)
+
+
+## Features
+
+- Browse a catalog of products with detailed information.
+- Search and filter products based on categories, prices, etc.
+- User authentication for a personalized shopping experience.
+- Shopping cart functionality for adding and managing items.
+- Secure checkout process.
+
+## Technologies Used
+
+- React.js
+- Next.js
+- Sanity CMS
+- Tailwind CSS for styling
+- [Your favorite payment gateway]
 
 ## Getting Started
 
-![014](https://github.com/enoch2-hub/ecommerce_sanity/assets/151722245/ebe8fc67-40a5-4bee-b756-d9fded6571d7)
+### Prerequisites
 
+Make sure you have Node.js and npm installed on your machine.
 
-First, run the development server:
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/your-username/ecommerce-app.git
