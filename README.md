@@ -18,8 +18,6 @@ The E-Commerce App is a full-stack web application that enables users to browse 
 - React.js
 - Next.js
 - Sanity CMS
-- Tailwind CSS for styling
-- [Your favorite payment gateway]
 
 ## Getting Started
 
